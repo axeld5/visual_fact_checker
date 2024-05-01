@@ -32,9 +32,10 @@ This notebook performs the following:
 - Querying of GPT4V to compare the original image captions to the verified captions.
 
 # Notes
-In the text image I choose, there are two things to note:
+In the text image I choose, there are three findings I note:
 - Flipping GPT4 and Haiku descriptions has an impact on the mixed caption. GPT4's is better, but its captioning will be predominant if used as caption 1. On the opposite, Haiku hallucinates more, which leads to its error propagating if used as caption 1.
 - On the last step, if Haiku is used as the evaluator, it decides its captioning is better, but it hallucinates regarding the image, as it sees two adults instead of one.
+- GPT4 chooses its reference to be better. This could be because it really is, but also because it is biased towards its answer if used as a judge here, which is something to take into account.
 
 # Contributing
 If you would like to contribute to this project, please follow these steps:
