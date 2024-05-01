@@ -1,0 +1,5 @@
+langchain-anthropic==0.1.8
+langchain-core==0.1.42
+openai==1.25.0
+python-dotenv==1.0.1
+transformers==4.41.0.dev0
