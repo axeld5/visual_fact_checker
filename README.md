@@ -1,7 +1,7 @@
 # Visual Fact Checker
 This repository is an attempt at reproducing the 2D captioning improvement part of:Visual Fact Checker: "Enabling High-Fidelity Detailed Caption Generation", by Ge et al. from Nvidia
 
-One can find the link of the paper here: https://arxiv.org/pdf/2404.19752
+The link of the paper can be found here: https://arxiv.org/pdf/2404.19752
 
 # Requirements
 To run this project, you need an Anthropic API key, an OpenAI API key and python >= 3.8.
